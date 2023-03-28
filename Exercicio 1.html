@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Dados do Paciente</legend>
+            Nome do paciente: <input type="text" name="nome"><br>
+            Registro Hospitalar: <input type="text" name="registro"><br>
+            Data de Inclusão: <input type="date" name="inclusao"><br>
+            Data de Nascimento: <input type="date" name="datanasc"><br>
+            E-Mail: <input type="e-mail" name="e-mail"><br>
+            Gênero: <br>
+            <label for="g1">
+                <input type="radio" name="genero" value="1" id="g1"> Feminino
+            </label>
+            <br>
+            <input type="radio" name="genero" value="2"> Masculino<br>
+            Raça Declarada:<br>
+            <select name="raca">
+                <option value=""></option>
+                <option value="1">Branca</option>
+                <option value="2">Negra</option>
+                <option value="3">Parda</option>
+                <option value="4">Amarela</option>
+            </select>
+            <br>
+            Como ficou sabendo do estudo:<br>
+            <input type="checkbox" name="estudo" value="convidado">Convidado
+            <br>
+            <input type="checkbox" name="estudo" value="Internet">Internet
+            <br>
+            <input type="checkbox" name="estudo" value="Amigos">Amigos
+            <br>
+            <input type="checkbox" name="estudo" value="Familiares">Familiares
+            <br>
+            <input type="checkbox" name="estudo" value="Outros">Outros
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
